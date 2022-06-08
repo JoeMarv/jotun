@@ -59,7 +59,7 @@ a:hover {
 
 .top-part{
     background-color: var(--clr-4);
-    padding: 5vw;
+    padding: 5vw 5vw 3vw 5vw;
     border-radius: 4vw 4vw 0vw 0vw;
     font-family: var(--ff-nobile);
     font-weight: 500;
@@ -72,7 +72,7 @@ a:hover {
     background-image: url(assets/IMG_8303.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1vw solid var(--clr-1);
+    border: 1vw solid var(--clr-2);
     border-radius: 50%;
 }
 
@@ -80,7 +80,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: var(--clr-1)
+    color: var(--clr-2)
 }
 
 .profile-text {
@@ -118,4 +118,20 @@ a:hover {
 .socials span:hover {
     color: var(--clr-2);
     transition: var(--transition)
+}
+
+.main {
+    background-color: var(--clr-3);
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+    border-radius: 0vw 0vw 4vw 4vw;
+}
+
+.heading {
+    color: var(--clr-6);
+    font-family: var(--ff-raleway);
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
 }
