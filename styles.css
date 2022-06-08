@@ -139,7 +139,7 @@ a:hover {
 .project {
     display: flex;
     flex-direction: column;
-    padding: 2vw;
+    padding: 4vw 2vw 2vw 2vw;
     border-bottom: 0.25vw solid var(--clr-4);
 }
 
@@ -157,7 +157,7 @@ a:hover {
 }
 
 .repo-link a {
-    font-size: 0.9em;
+    font-size: 0.75em;
     font-weight: 500;
     font-family: var(--ff-nobile);
     color: var(--clr-4);
@@ -199,6 +199,7 @@ a:hover {
     height: 2rem;
     bottom: 3rem;
     right: 1.5rem;
+    border: none;
     border-radius: 0.6rem;
     background: var(--clr-2);
     color: var(--clr-5);
