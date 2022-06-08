@@ -1,9 +1,9 @@
  const pages = [
     {
         id: 1,
-        link: 'https://joemarv.github.io/expenses-chart/',
+        link: 'https://joemarv.github.io/Projects/',
         linktitle: 'Fylo Landing Page',
-        repo: 'https://www.github.com/JoeMarv/expenses-chart/',
+        repo: 'https://www.github.com/JoeMarv/Projects/',
         html: '42.5%',
         css: '57.5%',
         js: '0%',
