@@ -29,12 +29,6 @@ h1 {
     margin: 1vw 0vw
 }
 
-h2 {
-    font-family: var(--ff-raleway);
-    font-size: 1.2em;
-    font-weight: 700;
-}
-
 a {
     color: var(--clr-1);
     cursor: pointer;
@@ -115,8 +109,8 @@ a:hover {
     color: var(--clr-3)
 }
 
-.socials span:hover {
-    color: var(--clr-2);
+.socials a:hover {
+    color: var(--clr-1);
     transition: var(--transition)
 }
 
@@ -134,4 +128,100 @@ a:hover {
     font-size: 1.5em;
     font-weight: 700;
     text-align: center;
+    letter-spacing: 2vw
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    border-bottom: 0.25vw solid var(--clr-4);
+}
+
+.project-link a {
+    font-size: 1em;
+    font-weight: 500;
+    font-family: var(--ff-raleway);
+    color: var(--clr-2);
+    cursor: pointer
+}
+
+.project-link a:hover {
+    color: var(--clr-6);
+    transition: var(--transition)
+}
+
+.repo-link a {
+    font-size: 0.9em;
+    font-weight: 500;
+    font-family: var(--ff-nobile);
+    color: var(--clr-4);
+    cursor: pointer
+}
+
+.repo-link a:hover {
+    color: var(--clr-1);
+    transition: var(--transition)
+}
+
+.languages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1vw 0vw
+}
+
+.html, .css, .js {
+    font-size: 0.7em;
+    font-weight: 400;
+    font-family: var(--ff-raleway);
+    color: var(--clr-5);
+    cursor: pointer
+}
+
+#html, #css, #js {
+    font-size: 1em;
+    font-weight: 500;
+    font-family: var(--ff-nobile);
+    color: var(--clr-6);
+    cursor: pointer
+}
+
+.top-btn {
+    font-size: 1.25em;
+    position:  fixed;
+    width: 2rem;
+    height: 2rem;
+    bottom: 3rem;
+    right: 1.5rem;
+    border-radius: 0.6rem;
+    background: var(--clr-2);
+    color: var(--clr-5);
+    display: grid;
+    place-items: center;
+    animation: bounce 2s ease-in-out infinite;
+    visibility: hidden;
+    z-index: -100;
+}
+
+.show {
+    visibility: visible;
+    z-index: 100;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
