@@ -79,6 +79,15 @@
         html: '27.4%',
         css: '67.7%',
         js: '4.9%',
+    },
+    {
+        id: 10,
+        link: 'https://joemarv.github.io/intro-component/',
+        linktitle: 'Intro Component',
+        repo: 'https://www.github.com/JoeMarv/intro-component/',
+        html: '43.5%',
+        css: '43.5%',
+        js: '13.0%',
     }
  ];
 
