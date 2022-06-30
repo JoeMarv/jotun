@@ -88,6 +88,15 @@
         html: '43.5%',
         css: '43.5%',
         js: '13.0%',
+    },
+    {
+        id: 11,
+        link: 'https://joemarv.github.io/ping/',
+        linktitle: 'Ping Coming Soon Page',
+        repo: 'https://www.github.com/JoeMarv/ping/',
+        html: '19.3%',
+        css: '71.7%',
+        js: '9.0%',
     }
  ];
 
